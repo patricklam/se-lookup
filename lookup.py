@@ -48,7 +48,7 @@ class Student:
       this_students_year = year + level_dict[term.level]
       if this_students_year > latest:
         latest = this_students_year
-    return latest
+    return "%02d" % (latest)
     
   def __str__(self):
     fname = ('{} [{}]'.format(self.preferred_name, self.first_name)) if self.preferred_name else self.first_name
