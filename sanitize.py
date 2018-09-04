@@ -2,7 +2,6 @@
 
 import csv
 import os
-import tempfile
 from pathlib import Path
 
 DATADIR=Path(os.path.dirname(os.path.realpath(__file__))) / "data"

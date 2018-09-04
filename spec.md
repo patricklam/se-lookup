@@ -2,9 +2,11 @@
 
 ## Input: 
 
+firstname
 lastname
 f[irstname] lastname
 lastname, firstname
+middlename always works instead of firstname
 student id
 watiam
 
@@ -24,10 +26,9 @@ Performs the lookup.
 
 Sample input/output:
 
-> p23lam
+> Query: p23lam
 
 Patrick Lam (96123456)
 SE class of 1999.
 Registered as follows: 
 [2A: F96] [2B: W97] [3A: F97] [3B: W98] [4A: F98] [4B: F99]
-
